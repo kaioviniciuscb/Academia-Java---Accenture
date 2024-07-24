@@ -94,8 +94,7 @@ public class JogoDaVelha {
 			if (tabuleiro[i][0].equals(jogadorAtual) && tabuleiro[i][1].equals(jogadorAtual)
 					&& tabuleiro[i][2].equals(jogadorAtual)) { // verifica se a linha i está completa
 				return true;
-			} else if (tabuleiro[0][i].equals(jogadorAtual) && tabuleiro[1][i].equals(jogadorAtual)
-					&& tabuleiro[2][i].equals(jogadorAtual)) { // verifica se a coluna i está completa
+			} else if (tabuleiro[0][i].equals(jogadorAtual) && tabuleiro[1][i].equals(jogadorAtual) && tabuleiro[2][i].equals(jogadorAtual)) { // verifica se a coluna i está completa
 				return true;
 			}
 		}
